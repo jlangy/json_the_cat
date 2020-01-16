@@ -3,7 +3,7 @@ const breedQuery = process.argv.slice(2,3);
 
 
 fetchBreedDescription(breedQuery, (error, description) => {
-  if(error){
+  if (error) {
     console.log(error);
   } else {
     console.log(description);
